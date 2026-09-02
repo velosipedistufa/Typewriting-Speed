@@ -1,0 +1,105 @@
+# typewriting.yaml — personal speed ledger
+# units:  spm = symbols / characters per minute, as logged
+#         wpm = only when the original note recorded it
+# default test: unspecified until a note says otherwise
+# related: velosipedistufa/{bashirovKeyboardV2,bashirov_keyboard,
+#          zmk-config-bashirovV2,zmk-config-bashirov,setup_linux}
+#
+# --------------------------------------------------------------
+# Starting at age
+# --------------------------------------------------------------
+
+meta:
+  owner: velosipedistufa
+  layout_now: colemak
+  board_now: bashirovKeyboardV2
+  units:
+    speed: spm          # symbols / characters per minute, as logged
+    words: wpm          # only when the original note recorded it
+  default_test: unspecified until a note says otherwise
+  # latest note says: 15s monkeytype, no keycaps, keyboard v2
+
+log:
+  - date: 2020-11-29
+    spm: 290
+  - date: 2021-01-01
+    spm: 298
+  - date: 2021-01-07
+    spm: 312
+  - date: 2021-02-01
+    spm: 342
+  - event: switch to colemak
+    layout: colemak
+    note: Switch to colemak
+  - date: 2021-02-06
+    spm: 38
+  - date: 2021-02-08
+    spm: 100
+  - date: 2021-02-09
+    spm: 113
+  - date: 2021-02-10
+    spm: 166
+  - date: 2021-02-11
+    spm: 168
+  - date: 2021-02-12
+    spm: 173
+  - date: 2021-02-13
+    spm: 212
+  - date: 2021-02-14
+    spm: 222
+  - date: 2021-02-15
+    spm: 226
+  - date: 2021-02-17
+    spm: 242
+  - date: 2021-02-20
+    spm: 284
+  - date: 2021-03-02
+    spm: 331
+  - date: 2021-03-04
+    spm: 333
+  - date: 2021-04-22
+    spm: 386
+  - date: 2021-09-27
+    spm: 330
+  - date: 2021-10-01
+    spm: 312
+    test: academy
+    note: academy
+  - date: 2022-01-20
+    spm: 333
+  - date: 2023-04-14
+    spm: 362
+  - date: 2023-05-13
+    spm: 384
+  - date: 2023-06-01
+    spm: 349
+  - date: 2023-06-13
+    spm: 400
+    note: 400 SPM !!!
+  - date: 2023-06-14
+    spm: 422
+  - date: 2023-07-21
+    spm: 416
+  - date: 2024-08-19
+    spm: 418
+  - date: 2024-11-09
+    spm: 393
+    test: ru
+    note: ru
+  - date: 2024-11-13
+    spm: 433
+    wpm: 86.7
+  - date: 2025-02-05
+    spm: 410
+    wpm: 85
+    event: switch to DIY colstag split keyboard
+    test: colemak academy
+    board: DIY colstag, ks-27
+    note: Switch to DIY colstag split keyboard, ks-27, same layout, test was on colemak academy
+  - date: 2026-09-02
+    spm: 470
+    wpm: 94
+    event: keyboard v2
+    test: 15s monkeytype
+    board: keyboard v2
+    note: Second version on the keyboard. No keycaps. 15s monkey type
