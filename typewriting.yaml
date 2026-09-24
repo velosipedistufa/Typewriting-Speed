@@ -63,8 +63,8 @@ log:
     spm: 330
   - date: 2021-10-01
     spm: 312
-    test: academy
-    note: academy
+    test: Colemak Academy
+    note: 50 words
   - date: 2022-01-20
     spm: 333
   - date: 2023-04-14
@@ -84,7 +84,7 @@ log:
     spm: 418
   - date: 2024-11-09
     spm: 393
-    test: ru
+    test: klavaorg
     note: ru
   - date: 2024-11-13
     spm: 433
@@ -92,7 +92,7 @@ log:
   - date: 2025-02-05
     spm: 410
     wpm: 85
-    event: switch to DIY colstag split keyboard
+    event: switch to DIY colstag split keyboard, v1
     test: colemak academy
     board: DIY colstag, ks-27
     note: Switch to DIY colstag split keyboard, ks-27, same layout, test was on colemak academy
@@ -103,3 +103,10 @@ log:
     test: 15s monkeytype
     board: keyboard v2
     note: Second version on the keyboard. No keycaps. 15s monkey type
+  - date: 2026-09-24
+    spm: 468
+    wpm: 94
+    event: keyboardV2 Keycaps
+    test: 15s monkeytype
+    board: keyboardV2
+    note: Typed on KLP lame keycaps
