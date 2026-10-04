@@ -110,3 +110,8 @@ log:
     test: 15s monkeytype
     board: keyboardV2
     note: Typed on KLP lame keycaps
+  - date: 2026-10-04
+    spm: 496
+    wpm: 99
+    test: 15s monkeytype
+    board: bashirovKeyboardV2
